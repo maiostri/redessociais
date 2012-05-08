@@ -1,0 +1,28 @@
+-- Trigger que cria um grupo padrão para o usuário
+CREATE OR REPLACE TRIGGER GRUPOUSER
+AFTER INSERT ON USUARIO
+FOR EACH ROW
+
+  BEGIN
+      INSERT INTO GRUPO VALUES (:new.Idusuario,'Friends',0);
+  END;
+  
+  
+CREATE OR REPLACE TRIGGER VALIDATECOMMENT
+INSTEAD OF INSERT ON COMENTARIO
+FOR EACH ROW
+  DECLARE
+    CONTA NUMBER;
+    INVALIDATECOMMENT EXCEPTION;
+  BEGIN
+  
+    SELECT COUNT(*) INTO CONTA FROM OBJETO
+    WHERE IDOBJETO = :new.Idobjeto and Idusuario = :new.Remetente;
+    
+    IF (CONTA = 1) THEN
+      INSERT INTO COMENTARIO VALUES(:new.Remetente, :new.Post, :new.Idobjeto);
+    ELSE
+      RAISE INVALIDATECOMMENT;
+    
+  END;
+

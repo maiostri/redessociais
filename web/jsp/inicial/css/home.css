@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+            height: 100%;
+            background-color: #E8E8E8;
+            font-family: Georgia, Arial;
+    }
+        
+#logo
+    {
+            width: 1000px;
+            height: 93px;
+            padding: 0;
+			margin: 0 auto;
+			background-color: #E8E8E8;
+			background-image: url("../img/logo.jpg");
+     }
+        
+#buttons
+    {
+            width: 1000px;
+            height: 31px;
+            overflow: hidden;
+            padding: 0x;
+            margin: auto;
+	    margin-top:2px;
+            background-image: url("../img/back1.jpg");
+
+     }
+	 
+#botoom
+    {
+            width: 1000px;
+            height: 31px;
+            padding: 0x;
+            margin: auto;
+            background-image: url("../img/back1.jpg");
+
+     }
+
+#bsair
+       {
+               width: 90px;
+               height: 31px;
+               overflow: hidden;
+               background: url("../img/bt_sair-full.jpg") top left no-repeat;
+               display: block;
+               text-indent: 10000px;
+               text-decoration: none;
+               float: left;
+ 
+}
+
+#bsair:hover { background-position: bottom left;      }
+
+
+#bcomunidades		
+	{
+		width: 130px; 
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_comunidades-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+ 
+#bcomunidades:hover	
+	{
+		background-position: bottom left;
+	}
+
+#bgrupos		
+	{
+		width: 130px; 
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_grupos-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+ 
+#bgrupos:hover	
+	{
+		background-position: bottom left;
+	}
+
+
+
+
+
+#batualizacoes		
+	{
+		width: 130px; 
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_atualizacoes-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+ 
+#batualizacoes:hover	
+	{
+		background-position: bottom left;
+	}
+	
+#bposts
+	{
+		width: 130px; 
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_posts-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+		}
+ 
+#bposts:hover	{	background-position: bottom left;	}
+	
+#balbuns
+	{
+		width: 130px; 
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_albuns-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+ 
+#balbuns:hover { background-position: bottom left;	}
+
+#bperfil
+	{
+		width: 130px;
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_perfil-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+
+#bperfil:hover { background-position: bottom left;	}
+
+#bconfiguracoes
+	{
+		width: 130px;
+		height: 31px;
+		overflow: hidden;
+		background: url("../img/bt_configuracoes-full.jpg") top left no-repeat;
+		display: block;
+		text-indent: 10000px;
+		text-decoration: none;
+		float:left;
+	}
+
+#bconfiguracoes:hover { background-position: bottom left;	}
+
+#main
+        {
+            width: 1000px;
+            height: 800px;
+            padding: 0;
+            margin: auto;
+            background-color: #FFFFFF;
+            font-size: 12px;
+            color: #555555;
+        }
+
+#left
+        {
+            width: 200px;
+            height: 800px;
+            padding: 0;
+            margin: auto;
+            background-color: #B9B9B9;
+            font-size: 12px;
+            color: #555555;
+			float: left;
+        }
+		
+#posts
+        {
+            width: 800px;
+            height: 800px;
+            padding: 0;
+            margin: auto;
+            background-color: #FFFFFF;
+            color: #555555;
+	    float: left;
+            font-family:Verdana, Geneva, sans-serif;
+	    font-size: 12px;
+				
+        } 
+h1#bottom 	
+		{ 
+		font-family:Verdana, Geneva, sans-serif;
+	        font-size: 9px;		      
+		text-align:center;
+		}
